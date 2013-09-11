@@ -1,0 +1,85 @@
+!!! 5
+html
+head
+		title Marmore
+		meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name='keywords', content='bootstrap, Templatte bootstrap, Template bootstrap hotel, bootstrap hotel , wrapbootstrap, yobio')
+		meta(name='description', content='HTML Responsive, Best HTML template for your hotel website')
+		meta(name='author', content='yobio studio')
+		link(rel='shortcut icon', href='static/images/faicon.png')
+		
+		link(href='bootstrap/css/bootstrap.min.css', rel='stylesheet')
+		link(href='bootstrap/css/bootstrap-responsive.min.css', rel='stylesheet')
+		
+		link(rel='stylesheet', href='static/css/font/FortAwesome/css/font-awesome.css')
+		//if IE 7
+			link(rel='stylesheet', href='static/css/font/FortAwesome/css/font-awesome-ie7.min.css')
+		//if lt IE 9
+			script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+		link(rel='stylesheet', href='static/css/light_box/magnific-popup.css')
+		
+		link(href='static/css/fullcalendar/fullcalendar.css', rel='stylesheet')
+		link(href='static/css/datatables/css/jquery.dataTables.css', rel='stylesheet')
+		
+		link(href='static/css/style.css', rel='stylesheet')
+		link(href='static/css/color_theme.css', rel='stylesheet')
+		
+		link(href='static/css/mystyle.css', rel='stylesheet')
+		
+	body.theme_default
+		#wrapper
+			section#top_header
+				.inner-wrapper.text_center
+					//
+						Start Main Navigation
+					.togle_menu_mobile
+						a.btn.btn-primary.flat(data-toggle='collapse', data-target='.main_navbar')
+							i.icon-th-list.icon-2x
+						strong   Lobster 
+						| Hotel
+					nav.main_navbar.collapse
+						ul.unstyled
+							li.active
+								a(href='index.html') Home
+							li
+								a(href='accomodation.html') Accomodation
+							li
+								a(href='restuarant.html') Restuarant
+							li
+								a(href='spa.html') Spa
+							li
+								a(href='offering.html') Offering
+							li
+								a(href='events.html') Events
+							li
+								a(href='reservation.html') Reservations
+							li
+								a(href='about.html') About Us
+							li.dropdown
+								a.dropdown-toggle(href='#', data-toggle='dropdown')
+									| Member
+									b.caret
+								ul.dropdown-menu
+									li
+										a(href='login.html') Login
+									li
+										a(href='singup.html') SignUp
+							li.dropdown
+								a.dropdown-toggle(href='#', data-toggle='dropdown')
+									| Pages
+									b.caret
+								ul.dropdown-menu
+									li
+										a(href='index_simple.html') Home Simple
+									li
+										a(href='blog.html') Blog
+									li
+										a(href='blog_detail.html') Blog Detail
+									li
+										a(href='galeries.html') Galeries
+									li
+										a(href='blank.html') Blank page
+									li
+										a(href='documentation/index.html') Documentation
+			block content

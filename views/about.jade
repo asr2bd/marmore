@@ -1,0 +1,97 @@
+extend layout
+block content		
+		section#content_top
+		.bg_content_top.general_bg
+				.inner-wrapper.text_center
+					h1.no_margin.main_title
+						| About Us
+						small Lorem Ipsum
+		//			end main Title content
+		//			 Start section logo message area 
+		section#logo_message_area
+			.inner-wrapper
+				//					 Start logo image 
+				h1.no_margin.logo
+					strong Lobster
+					small Hotel
+				//					 End logo image 
+				//					 Start Message Your own 
+				.row-fluid
+					.span8
+						p.no_margin
+							| Special for
+							strong today
+							| you will get a suprize.
+					.span4.text_right
+						a.btn.btn-primary.flat(href='reservation.html')
+							i.icon-calendar
+							| Booking Now
+				//					 End Message Your own 
+			.inner-wrapper.driver_space
+		//			 End section logo message area 
+		//			 Start section content page 
+		section#content
+			.inner-wrapper
+				.row-fluid
+					.span12
+						h1
+							| ABOUT
+							strong LOBSTER
+						p
+							| Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						.divater
+							.line
+							span
+								img(src='lobster/images/deviter.png', alt='')
+						.row-fluid
+							.span6
+								img(src='lobster/images/interior/5388055503_bdfec0a3d5.jpg', alt='preview')
+								h2 OUR HISTORY
+								p
+									| Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+							.span6
+								img(src='lobster/images/interior/5388661724_e92356d456.jpg', alt='preview')
+								h2 OUR SERVICES
+								p
+									| Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+						.divater
+							.line
+							span
+								img(src='lobster/images/deviter.png', alt='')
+						h2.text_center
+							| More than
+							strong 500 
+							| happy clients
+						//							Start List Clients
+						.text_center.patner_list
+							img(src='lobster/images/patner/patner.png', alt='preview')
+							img(src='lobster/images/patner/patner2.png', alt='preview')
+							img(src='lobster/images/patner/patner.png', alt='preview')
+							img(src='lobster/images/patner/patner2.png', alt='preview')
+						//							End List Clients
+						//							Start Break page
+						.divater
+							.line
+							span
+								img(src='lobster/images/deviter.png', alt='')
+						//							End Break page
+						.row-fluid
+							.span6
+								//									Start Gmap statis
+								img(src='lobster/images/staticmap.png', alt='preview')
+								h2
+									strong Where
+									| we Are?
+								p
+									| Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+								//									End Gmap statis
+							.span6
+								//									Start Contact Form
+								h2  If you have any special requirements please do not hesitate to contact us.
+								form.lobstrer_form_validation
+									label Email
+									input.input-block-level(type='email', name='email', required='required')
+									label Message
+									textarea.input-block-level(rows='5', required='required')
+									input.btn.btn-large.flat.btn-primary(type='submit', value='Send')
+								//									End Contact Form

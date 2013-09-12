@@ -189,7 +189,7 @@ Start Content TOP
   background-image: url(../images/microCamera.jpg);
 }
 #content_top .main_title {
-  letter-spacing: 29px;
+  letter-spacing: 10px;
   display: inline-block;
   color: white;
   padding: 20px;

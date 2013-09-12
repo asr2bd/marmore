@@ -1,12 +1,13 @@
 extend layout
 block content
-	section#content_top
+	//section#content_top
 		.bg_content_top.general_bg
 			.inner-wrapper.text_center
 				h1.no_margin.main_title
 					img(src="images/logo.png", style="margin-right:10px;")
 					| M'armore Inc
 					small Exceptional Quality and Service
+
 
 					
 	
@@ -19,8 +20,7 @@ block content
 					p.no_margin
 						
 
-			//
-				a End Message Your own 
+			
 		.inner-wrapper.driver_space
 	//
 		a End section logo message area 
@@ -28,6 +28,29 @@ block content
 		a Start section content page 
 	section#content
 		.inner-wrapper
+			section#content_top
+				#sequence
+					a.sequence-prev(href='#') Prev
+						a.sequence-next(href='#') Next
+						ul.sequence-canvas.unstyled
+							li.animate-in
+								.start_anime
+									img.bg_slider(src='lobster/images/slider/s1.jpg', alt='preview')
+									.box_area_slider	
+											.text_center
+												h1.no_margin.main_title
+													img(src="images/logo.png", style="margin-right:10px;")
+													| M'armore Inc
+													small Exceptional Quality and Service
+							li
+								.start_anime
+									img.bg_slider(src='lobster/images/slider/s2.jpg', alt='preview')
+									.box_area_slider
+										.text_center
+												h1.no_margin.main_title
+													img(src="images/logo.png", style="margin-right:10px;")
+													| M'armore Inc
+													small Exceptional Quality and Service
 			//
 				a Begin Content Page 
 			.row-fluid

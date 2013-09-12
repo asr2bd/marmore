@@ -21,6 +21,11 @@ app.get('/',function(req,res){
 	res.render("index");
 });
 
+app.get('/about.html', function(req, res) {
+	res.render("about");
+
+});
+
 var port = process.env.PORT || 3000;
 
 app.listen(port, function() {

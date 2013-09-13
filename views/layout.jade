@@ -39,10 +39,10 @@ head
 						| Hotel
 					nav.main_navbar.collapse
 						ul.unstyled
-							li.active
+							li
 								a(href='index.html') Home
 							li
-								a(href='accomodation.html') About Marmore
+								a(href='about.html') About Marmore
 							li
 								a(href='restuarant.html') Services
 							li
@@ -53,18 +53,8 @@ head
 								a(href='events.html') Events
 							li
 								a(href='reservation.html') Reservations
-							li
-								a(href='about.html') About Us
-							li.dropdown
-								a.dropdown-toggle(href='#', data-toggle='dropdown')
-									| Member
-									b.caret
-								ul.dropdown-menu
-									li
-										a(href='login.html') Login
-									li
-										a(href='singup.html') SignUp
-							li.dropdown
+							
+							//li.dropdown
 								a.dropdown-toggle(href='#', data-toggle='dropdown')
 									| Pages
 									b.caret
@@ -115,9 +105,9 @@ head
 							//								Start List Link pages
 							ul.link_list_footer
 								li
-									a(href='#') Home
+									a(href='/index.html') Home
 								li
-									a(href='#') About Marmore
+									a(href='/about.html') About Marmore
 								li
 									a(href='#') Services
 								li

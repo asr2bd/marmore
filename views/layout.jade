@@ -7,7 +7,7 @@ head
 		meta(name='keywords', content='bootstrap, Templatte bootstrap, Template bootstrap hotel, bootstrap hotel , wrapbootstrap, yobio')
 		meta(name='description', content='HTML Responsive, Best HTML template for your hotel website')
 		meta(name='author', content='yobio studio')
-		link(rel='shortcut icon', href='static/images/faicon.png')
+		link(rel='shortcut icon', href='images/favicon.png')
 		
 		link(href='bootstrap/css/bootstrap.min.css', rel='stylesheet')
 		link(href='bootstrap/css/bootstrap-responsive.min.css', rel='stylesheet')
@@ -26,6 +26,10 @@ head
 		link(href='static/css/color_theme.css', rel='stylesheet')
 		
 		link(href='static/css/mystyle.css', rel='stylesheet')
+		script(src='lobster/js/jquery-1.9.1.min.js')
+		script(src='lobster/js/jquery-ui-1.10.2.custom.min.js')
+		//			Load JS Bootstrap
+		script(src='bootstrap/js/bootstrap.min.js')
 		
 	body.theme_black
 		#wrapper
@@ -272,7 +276,7 @@ head
 				//					End Arrow Back To TOP Page
 			//				End Footer Section
 			//				 Start Control Color Theme 
-			.control_color.hidden-phone
+			//.control_color.hidden-phone
 				a(href='#', data-color='theme_default')
 					img(src='http://placehold.it/30x30/CE4E4A/CE4E4A', alt='')
 				a(href='#', data-color='theme_blue')
@@ -286,10 +290,7 @@ head
 		//			Load JS source
 		//			=========================================================================
 		//			Load JS JQUERY
-		script(src='lobster/js/jquery-1.9.1.min.js')
-		script(src='lobster/js/jquery-ui-1.10.2.custom.min.js')
-		//			Load JS Bootstrap
-		script(src='bootstrap/js/bootstrap.min.js')
+		
 		//			=========================================================================
 		//			Load JS plugins
 		//			=========================================================================

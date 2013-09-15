@@ -27,6 +27,11 @@ app.get('/about.html',function(req,res){
 	res.render("about");
 });
 
+app.get('/team.html', function(req, res){
+	res.render("team");
+
+});
+
 
 var port = process.env.PORT || 3000;
 

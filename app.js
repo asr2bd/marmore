@@ -31,6 +31,10 @@ app.get('/team.html', function(req, res){
 	res.render("team");
 
 });
+app.get('/gallery.html', function(req, res){
+	res.render("gallery");
+
+});
 
 
 var port = process.env.PORT || 3000;

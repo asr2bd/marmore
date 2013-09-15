@@ -1,0 +1,67 @@
+extend layout
+block content
+	section#logo_message_area
+			.inner-wrapper
+					//					 Start logo image 
+					h1.no_margin.logo
+						strong Lobster
+						small Hotel
+					//					 End logo image 
+					//					 Start Message Your own 
+					.row-fluid
+						.span8
+							p.no_margin
+								| Special for
+								strong today
+								| you will get a suprize.
+						.span4.text_right
+							a.btn.btn-primary.flat(href='reservation.html')
+								i.icon-calendar
+								| Booking Now
+					//					 End Message Your own 
+				.inner-wrapper.driver_space
+			//			 End section logo message area 
+			//			 Start section content page 
+			section#content
+				.inner-wrapper
+					.row-fluid
+						.span12
+							//							 Start Grid Galeries 
+							.gridmasonry.grid_list_galeries
+								.item_grid.item3
+									a.image_link(href='lobster/images/morguefile/food1.jpg')
+										.panel
+											h2 Food
+											.with_hover
+											img(src='lobster/images/morguefile/food1.jpg', alt='preview')
+								.item_grid.item3
+									a.image_link(href='lobster/images/morguefile/box_feature2.jpg')
+										.panel
+											h2 Title2
+											.with_hover
+											img(src='lobster/images/morguefile/box_feature2.jpg', alt='preview')
+								.item_grid.item3
+									a.image_link(href='lobster/images/morguefile/food2.jpg')
+										.panel
+											h2 Title3
+											.with_hover
+											img(src='lobster/images/morguefile/food2.jpg', alt='preview')
+								.item_grid.item3
+									a.image_link(href='lobster/images/morguefile/file9401274960472.jpg')
+										.panel
+											h2 Title4
+											.with_hover
+											img(src='lobster/images/morguefile/file9401274960472.jpg', alt='preview')
+								.item_grid.item3
+									a.image_link(href='lobster/images/morguefile/box_feature.jpg')
+										.panel
+											h2 Title5
+											.with_hover
+											img(src='lobster/images/morguefile/box_feature.jpg', alt='preview')
+								.item_grid.item3
+									a.image_link(href='lobster/images/morguefile/spa1.jpg')
+										.panel
+											h2 Title6
+											.with_hover
+											img(src='lobster/images/morguefile/spa1.jpg', alt='preview')
+							//							 End Grid Galeries 

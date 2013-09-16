@@ -1,0 +1,177 @@
+extend layout
+block content     
+      section#content_top
+        .bg_content_top.accomodation
+          .inner-wrapper.text_center
+            h1.no_margin.main_title
+              | Accomodation
+              small Feel Like Your Home
+      //
+        End main Title content
+      //
+         Start section logo message area 
+      section#logo_message_area
+        .inner-wrapper
+          //
+             Start logo image 
+          h1.no_margin.logo
+            strong Lobster
+            small Hotel
+          //
+             End logo image 
+          //
+             Start Message Your own 
+          .row-fluid
+            .span8
+              p.no_margin
+                | Special for
+                strong today
+                | you will get a suprize.
+            .span4.text_right
+              a.btn.btn-primary.flat(href='reservation.html')
+                i.icon-calendar
+                | Booking Now
+          //
+             End Message Your own 
+        .inner-wrapper.driver_space
+      //
+         End section logo message area 
+      //
+         Start section content page 
+      section#content
+        .inner-wrapper
+          .row-fluid
+            .span3
+              h2 We had the best room for you!
+              p See Deatails :
+              //
+                 Start link list accomodation 
+              ul.unstyled.link_acomodation
+                li.active
+                  a(href='accomodation_detail.html') All
+                li
+                  a(href='accomodation_detail.html') Standart Room
+                li
+                  a(href='accomodation_detail.html') Luxury Room
+                li
+                  a(href='accomodation_detail.html') Family Room
+                li
+                  a(href='accomodation_detail.html') VIP Room
+                li
+                  a(href='accomodation_detail.html') Deluxe Room
+                li
+                  a(href='accomodation_detail.html') Romantic Room
+              //
+                 End link list accomodation 
+              //
+                 Start testimonial 
+              h2 Testimonial
+              ul.unstyled.custumer_say
+                li.clearfix
+                  img.pull-left.img_client(src='lobster/images/loader.gif', data-src='lobster/images/custumers/c1.jpg', alt='image')
+                  h4.media-heading Joe Morton 
+                  p Beautiful hotel I have ever seen.
+                li.clearfix
+                  img.pull-left.img_client(src='lobster/images/loader.gif', data-src='lobster/images/custumers/c2.jpg', alt='image')
+                  h4.media-heading Joe Morton 
+                  p Beautiful hotel I have ever seen.
+                li.clearfix
+                  img.pull-left.img_client(src='lobster/images/loader.gif', data-src='lobster/images/custumers/c3.jpg', alt='image')
+                  h4.media-heading Joe Morton 
+                  p Beautiful hotel I have ever seen.
+                li.clearfix
+                  img.pull-left.img_client(src='lobster/images/loader.gif', data-src='lobster/images/custumers/c4.jpg', alt='image')
+                  h4.media-heading Joe Morton 
+                  p Beautiful hotel I have ever seen.
+                li.clearfix
+                  img.pull-left.img_client(src='lobster/images/loader.gif', data-src='lobster/images/custumers/c1.jpg', alt='image')
+                  h4.media-heading Joe Morton 
+                  p Beautiful hotel I have ever seen.
+              //
+                 Start testimonial 
+            .span9
+              //
+                 Start Grid Accomodation 
+              .gridmasonry.grid_accomodation
+                .item_grid.item2
+                  .panel
+                    .img_preview
+                      h4.price
+                        span €20 
+                        | Night
+                      img(src='lobster/images/interior/5388055503_bdfec0a3d5.jpg', alt='img_preview')
+                    h3 Standart Room
+                    p
+                      | Phasellus dictum nulla eu nunc varius pellentesque. Mauris vehicula fringilla nisl porttitor sollicitudin. Suspendisse facilisis metus id neque.
+                    .clearfix
+                      a.btn.btn-primary.flat.pull-left(href='accomodation_detail.html') Read more
+                      a.btn.btn-primary.flat.pull-right(href='reservation.html') Book Now
+                .item_grid.item2
+                  .panel
+                    .img_preview
+                      h4.price
+                        span €20 
+                        | Night
+                      img(src='lobster/images/interior/5388661724_e92356d456.jpg', alt='img_preview')
+                    h3 Luxury Room
+                    p
+                      | Phasellus dictum nulla eu nunc varius pellentesque. Mauris vehicula fringilla nisl porttitor sollicitudin. Suspendisse facilisis metus id neque.
+                    .clearfix
+                      a.btn.btn-primary.flat.pull-left(href='accomodation_detail.html') Read more
+                      a.btn.btn-primary.flat.pull-right(href='reservation.html') Book Now
+                .item_grid.item2
+                  .panel
+                    .img_preview
+                      h4.price
+                        span €20 
+                        | Night
+                      img(src='lobster/images/interior/5388662544_9e6441ee70.jpg', alt='img_preview')
+                    h3 Family Room
+                    p
+                      | Phasellus dictum nulla eu nunc varius pellentesque. Mauris vehicula fringilla nisl porttitor sollicitudin. Suspendisse facilisis metus id neque.
+                    .clearfix
+                      a.btn.btn-primary.flat.pull-left(href='accomodation_detail.html') Read more
+                      a.btn.btn-primary.flat.pull-right(href='reservation.html') Book Now
+                .item_grid.item2
+                  .panel
+                    .img_preview
+                      h4.price
+                        span €20 
+                        | Night
+                      img(src='lobster/images/interior/5388661724_e92356d456.jpg', alt='img_preview')
+                    h3 VIP Room
+                    p
+                      | Phasellus dictum nulla eu nunc varius pellentesque. Mauris vehicula fringilla nisl porttitor sollicitudin. Suspendisse facilisis metus id neque.
+                    .clearfix
+                      a.btn.btn-primary.flat.pull-left(href='accomodation_detail.html') Read more
+                      a.btn.btn-primary.flat.pull-right(href='reservation.html') Book Now
+                .item_grid.item2
+                  .panel
+                    .img_preview
+                      h4.price
+                        span €20 
+                        | Night
+                      img(src='lobster/images/interior/5388662544_9e6441ee70.jpg', alt='img_preview')
+                    h3 Deluxe Room
+                    p
+                      | Phasellus dictum nulla eu nunc varius pellentesque. Mauris vehicula fringilla nisl porttitor sollicitudin. Suspendisse facilisis metus id neque.
+                    .clearfix
+                      a.btn.btn-primary.flat.pull-left(href='accomodation_detail.html') Read more
+                      a.btn.btn-primary.flat.pull-right(href='reservation.html') Book Now
+                .item_grid.item2
+                  .panel
+                    .img_preview
+                      h4.price
+                        span €20 
+                        | Night
+                      img(src='lobster/images/interior/5388055503_bdfec0a3d5.jpg', alt='img_preview')
+                    h3 Romantic Room
+                    p
+                      | Phasellus dictum nulla eu nunc varius pellentesque. Mauris vehicula fringilla nisl porttitor sollicitudin. Suspendisse facilisis metus id neque.
+                    .clearfix
+                      a.btn.btn-primary.flat.pull-left(href='accomodation_detail.html') Read more
+                      a.btn.btn-primary.flat.pull-right(href='reservation.html') Book Now
+              //
+                 End Grid Accomodation 
+      //
+         End section content page 

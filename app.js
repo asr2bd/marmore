@@ -36,6 +36,10 @@ app.get('/gallery.html', function(req, res){
 
 });
 
+app.get('/services.html', function(req, res) {
+	res.render("services");
+});
+
 
 var port = process.env.PORT || 3000;
 
